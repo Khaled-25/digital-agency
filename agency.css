@@ -68,3 +68,67 @@
     color: black;
     border: none;
 }
+.service {
+    
+}
+.service-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/image/footer-bg.png'),
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    align-items: center;
+}
+.my-face {
+    border-radius: 120px;
+}
+.box-primary {
+    width: 270px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding-top: 80px;
+}
+.box {
+    width: 70px;
+}
+.first-two-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.last-two-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+.service-description {
+    width: 50%;
+}
+.left-side-container {
+    margin: 30px;
+}
+.right-side-container {
+    margin: 30px;
+}
+.service-title {
+    font-size: 40px;
+}
+.profile-picture {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.my-face {
+    border-radius: 70px;
+}
