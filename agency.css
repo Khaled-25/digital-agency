@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 .menu-container {
     display: flex;
     background-color: gray;
@@ -9,11 +10,61 @@
     justify-content: space-around;
     align-items: center;
 }
-.menus > ul {
+
+.menus>ul {
     display: flex;
     list-style: none;
     gap: 15px;
     font-size: 17px;
     font-style: italic;
     padding: 20px;
+}
+
+.banner-container {
+    height: 100vh;
+    background-image: url('/image/background.jpg'),
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner-info {
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+.banner-title {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.banner-description {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.primary {
+    color: red;
+}
+
+.btn-first {
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+
+.btn-second {
+    background-color: white;
+    padding: 10px 15px;
+    color: black;
+    border: none;
 }
