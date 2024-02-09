@@ -228,6 +228,8 @@
 }
 .blog-img {
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .card-title {
     margin-top: 10px;
@@ -239,6 +241,6 @@
 }
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
 }
