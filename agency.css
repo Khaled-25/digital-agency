@@ -158,13 +158,60 @@
     background-color: white;
     border-radius: 20px;
     margin-top: 10px;
+    border: none;
 }
 .btn-third {
     padding: 10px 15px;
     color: gray;
     background-color: white;
     border-radius: 20px;
+    border: none;
 }
 .light-red {
     color: rgb(247, 78, 78);
+}
+          /* Appointment section starts from here  */
+
+.appointment-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid gray;
+    padding-left: 15px;
+}
+.appointment-description {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.appointment-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(206, 57, 57);
+    height: 120px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: -35px;
+}
+.btn-fifth {
+    padding: 10px 15px;
+    color: darkblue;
+    background-color: rgb(223, 220, 220);
+    border-radius: 20px;
+    border: none;
+}
+     /* blog section starts here  */
+.bolg-title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}     
+.blog-description {
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
