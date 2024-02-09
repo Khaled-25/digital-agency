@@ -22,7 +22,7 @@
 
 .banner-container {
     height: 100vh;
-    background-image: url('/image/background.jpg'),
+    background-image: url('./image/background.jpg'),
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
     background-blend-mode: overlay;
     background-position: center;
